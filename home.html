@@ -5,65 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'dark-bg': '#18181b',
+              'dark-card': '#27272a',
+              'dark-text': '#f4f4f5',
+              'dark-muted': '#a1a1aa',
+            },
+          },
+        },
+      }
+    </script>
   </head>
-  <body class="bg-gray-100 min-h-screen flex items-center justify-center">
+  <body class="dark bg-dark-bg min-h-screen flex items-center justify-center">
     <div class="container mx-auto px-4">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <a
           href="directory/stack/index.html"
-          class="bg-white rounded-lg shadow-md p-6 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
+          class="bg-white dark:bg-dark-card rounded-lg shadow-md p-6 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
           target="_blank"
         >
-          <h2 class="text-2xl font-bold mb-4">Stacking</h2>
-          <p class="text-gray-600">
+          <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-dark-text">Stacking</h2>
+          <p class="text-gray-600 dark:text-dark-muted">
             Powered by: CSS<br />Source: https://codepen.io/finnhvman/pen/xJRMJp
           </p>
         </a>
         <a
           href="directory/tabletennis/index.html"
-          class="bg-white rounded-lg shadow-md p-6 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
+          class="bg-white dark:bg-dark-card rounded-lg shadow-md p-6 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
           target="_blank"
         >
-          <h2 class="text-2xl font-bold mb-4">Table Tennis</h2>
-          <p class="text-gray-600">
+          <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-dark-text">Table Tennis</h2>
+          <p class="text-gray-600 dark:text-dark-muted">
             Powered by: CSS<br />Source:
             https://codepen.io/ivorjetski/pen/mdzrLbW
           </p>
         </a>
         <a
           href="#"
-          class="bg-white rounded-lg shadow-md p-6 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
+          class="bg-white dark:bg-dark-card rounded-lg shadow-md p-6 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
         >
-          <h2 class="text-2xl font-bold mb-4">Box 3</h2>
-          <p class="text-gray-600">
-            This is the content for box 3. Click me to see more!
+          <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-dark-text">Coming Soon!</h2>
+          <p class="text-gray-600 dark:text-dark-muted">
+            --
           </p>
         </a>
         <a
           href="#"
-          class="bg-white rounded-lg shadow-md p-6 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
+          class="bg-white dark:bg-dark-card rounded-lg shadow-md p-6 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
         >
-          <h2 class="text-2xl font-bold mb-4">Box 4</h2>
-          <p class="text-gray-600">
-            This is the content for box 4. Click me to see more!
+          <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-dark-text">Coming Soon!</h2>
+          <p class="text-gray-600 dark:text-dark-muted">
+            --
           </p>
         </a>
         <a
           href="#"
-          class="bg-white rounded-lg shadow-md p-6 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
+          class="bg-white dark:bg-dark-card rounded-lg shadow-md p-6 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
         >
-          <h2 class="text-2xl font-bold mb-4">Box 5</h2>
-          <p class="text-gray-600">
-            This is the content for box 5. Click me to see more!
+          <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-dark-text">Coming Soon!</h2>
+          <p class="text-gray-600 dark:text-dark-muted">
+            --
           </p>
         </a>
         <a
           href="#"
-          class="bg-white rounded-lg shadow-md p-6 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
+          class="bg-white dark:bg-dark-card rounded-lg shadow-md p-6 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
         >
-          <h2 class="text-2xl font-bold mb-4">Box 6</h2>
-          <p class="text-gray-600">
-            This is the content for box 6. Click me to see more!
+          <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-dark-text">Coming Soon!</h2>
+          <p class="text-gray-600 dark:text-dark-muted">
+            --
           </p>
         </a>
       </div>
